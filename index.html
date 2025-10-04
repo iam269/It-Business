@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IT Business - Soluții IT profesionale</title>
+  <meta name="description" content="Soluții software, consultanță IT și infrastructură pentru afaceri." />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="information-technology.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">IT Business</a>
+      <nav class="nav" id="mainNav">
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navList">Meniu</button>
+        <ul id="navList" class="nav-list">
+          <li><a href="#home">Acasă</a></li>
+          <li><a href="#services">Servicii</a></li>
+          <li><a href="#about">Despre</a></li>
+          <li><a href="#team">Echipă</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Construim produsul tău digital. Simplu. Securizat. Rapid.</h1>
+        <p>Suntem o firmă IT care oferă dezvoltare software, consultanță și suport infrastructură pentru companii de toate dimensiunile.</p>
+        <p class="hero-cta"><a class="btn" href="#contact">Solicită o ofertă</a> <a class="btn btn-outline" href="#services">Vezi servicii</a></p>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Serviciile noastre</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Dezvoltare software</h3>
+            <p>Aplicații web și mobile personalizate, arhitecturi scalabile și API-uri bine documentate.</p>
+          </article>
+          <article class="card">
+            <h3>Consultanță IT</h3>
+            <p>Analiză de business, strategie cloud, migrații și optimizare de costuri.</p>
+          </article>
+          <article class="card">
+            <h3>Infrastructură & Securitate</h3>
+            <p>Arhitecturi securizate, monitorizare, back-up și practici DevOps.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Despre noi</h2>
+        <p>Avem o echipă cu experiență în proiecte enterprise și startup-uri. Punem accent pe calitate, comunicare transparentă și livrări la timp.</p>
+      </div>
+    </section>
+
+    <section id="team" class="team">
+      <div class="container">
+        <h2>Echipa</h2>
+        <div class="grid team-grid">
+          <div class="member">
+            <div class="avatar">A</div>
+            <h4>Andrei Pop</h4>
+            <p>CTO — Arhitect software</p>
+          </div>
+          <div class="member">
+            <div class="avatar">M</div>
+            <h4>Maria Ionescu</h4>
+            <p>Project Manager</p>
+          </div>
+          <div class="member">
+            <div class="avatar">R</div>
+            <h4>Radu Georgescu</h4>
+            <p>DevOps & Security</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Trimite-ne un mesaj și revin imediat cu o ofertă personalizată.</p>
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Nume</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Mesaj</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="form-row">
+            <button type="submit" class="btn">Trimite</button>
+          </div>
+          <p id="formStatus" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> IT Business — Toate drepturile rezervate.</p>
+      <p class="small">Adresa: Str. Exemplu 10, București • Telefon: +40 123 456 789</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
