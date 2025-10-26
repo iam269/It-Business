@@ -1,28 +1,42 @@
-# Site static - IT Business
+# IT Business Static Site
 
-Acest folder conține un site static de prezentare pentru o firmă IT construit cu HTML, CSS și JavaScript.
+🚀 **IT Business Static Site** 🚀
 
-Fișiere generate:
-- `index.html` — pagina principală
-- `css/styles.css` — stiluri
-- `js/script.js` — interactivitate (meniu mobil, validare formular, smooth scroll)
+Welcome to the IT Business static website! This project showcases a modern, responsive presentation site for an IT company, built using HTML, CSS, and JavaScript. 💻✨
 
-Cum rulezi local:
-1. Deschide fișierul `index.html` în browserul tău (dublu-click sau `Open File`).
-2. Pentru dezvoltare cu refresh automat poți folosi un server local (ex: extensia Live Server din VS Code) sau un server simplu:
+Key features include:
+- 📱 Mobile-friendly navigation menu
+- 📧 Contact form with validation
+- 🎨 Sleek design with customizable colors
+- ⚡ Smooth scrolling and interactive elements
+
+Check it out live: [https://iam269.github.io/It-Business](https://iam269.github.io/It-Business)
+
+---
+
+This folder contains a static presentation site for an IT company built with HTML, CSS, and JavaScript.
+
+Generated files:
+- `index.html` — main page
+- `css/styles.css` — styles
+- `js/script.js` — interactivity (mobile menu, form validation, smooth scroll)
+
+How to run locally:
+1. Open the `index.html` file in your browser (double-click or `Open File`).
+2. For development with automatic refresh, you can use a local server (e.g., Live Server extension in VS Code) or a simple server:
 
    PowerShell:
 
    ```powershell
-   # din directorul proiectului
+   # from the project directory
    python -m http.server 8000;
-   # apoi deschide http://localhost:8000
+   # then open http://localhost:8000
    ```
 
-Personalizare rapidă:
-- Schimbă numele firmei/logo în `index.html`.
-- Ajustează paleta în `css/styles.css` (culoarea principală este #0b5fff).
-- Conectează formularul la backend în `js/script.js` (secțiunea simulare trimitere).
+Quick customization:
+- Change the company name/logo in `index.html`.
+- Adjust the palette in `css/styles.css` (main color is #0b5fff).
+- Connect the form to backend in `js/script.js` (simulation sending section).
 
-Dacă vrei, pot adăuga:
-- variante de pagină (portfolio, blog), formulare care trimit email/CRM, sau integrare cu Google Analytics/Meta.
+If you want, I can add:
+- page variants (portfolio, blog), forms that send email/CRM, or integration with Google Analytics/Meta.
